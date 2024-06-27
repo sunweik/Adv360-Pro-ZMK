@@ -2,7 +2,7 @@ macro_micro_clipboard: macro_micro_clipboard{
 compatible = "zmk,behavior-macro";
 label = "macro_micro_clipboard";
 #binding-cells = <0>;
-bindings = <&sk LEFT_COMMAND>, <&kp K>;
+bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&kp C>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
