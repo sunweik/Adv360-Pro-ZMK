@@ -1,3 +1,21 @@
+macro_center_2/3_win: macro_center_2/3_win{
+compatible = "zmk,behavior-macro";
+label = "macro_center_2/3_win";
+#binding-cells = <0>;
+bindings = <&kp LA(LG(W))>;
+};
+macro_right_half_win: macro_right_half_win{
+compatible = "zmk,behavior-macro";
+label = "macro_right_half_win";
+#binding-cells = <0>;
+bindings = <&kp LC(LG(RIGHT_ARROW))>;
+};
+macro_left_half_win: macro_left_half_win{
+compatible = "zmk,behavior-macro";
+label = "macro_left_half_win";
+#binding-cells = <0>;
+bindings = <&kp LC(LG(LEFT_ARROW))>;
+};
 macro_right_win: macro_right_win{
 compatible = "zmk,behavior-macro";
 label = "macro_right_win";
