@@ -1,8 +1,8 @@
-macro_center_2/3_win: macro_center_2/3_win{
+macro_center_2_3_win: macro_center_2_3_win{
 compatible = "zmk,behavior-macro";
-label = "macro_center_2/3_win";
+label = "macro_center_2_3_win";
 #binding-cells = <0>;
-bindings = <&kp LA(LG(W))>;
+bindings = <&kp LG(LA(W))>;
 };
 macro_right_half_win: macro_right_half_win{
 compatible = "zmk,behavior-macro";
