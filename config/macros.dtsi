@@ -1,3 +1,15 @@
+macro_prev_screen: macro_prev_screen{
+compatible = "zmk,behavior-macro";
+label = "macro_prev_screen";
+#binding-cells = <0>;
+bindings = <&kp LG(LA(LEFT_ARROW))>;
+};
+macro_next_screen: macro_next_screen{
+compatible = "zmk,behavior-macro";
+label = "macro_next_screen";
+#binding-cells = <0>;
+bindings = <&kp LG(LA(RIGHT_ARROW))>;
+};
 macro_restore_win: macro_restore_win{
 compatible = "zmk,behavior-macro";
 label = "macro_restore_win";
